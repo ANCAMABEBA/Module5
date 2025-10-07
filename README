@@ -2,6 +2,8 @@
 #  - This project analyzes customer data related to coupon offers to understand which factors influence whether a customer accepts or rejects a coupon.
 #  - The analysis uses a dataset that includes demographics (income, age, gender, marital status, education), customer habbits (number of visits to bars, coffee shops, etc.) and
 #    trip context (other people in the vehicle, whether, destination, time to redemption), and coupon features (type of cuopon, expiration)
+#  - You can view the full analysis in the Jupiter notebook here:(https://github.com/ANCAMABEBA/Module5/blob/main/CouponsAnalysisMaster.ipynb)
+# 
 # OBJECTIVE
 #  - The goal is to identify patterns and differences between customers who accepted the coupon and those who did not.
 #  - These insights can help marketing department to prioritize and direct investments more wisely
