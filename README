@@ -37,4 +37,9 @@
 #     - Driver has income less than $37,500  AND
 #     - Passengers are kids AND
 #     - Driver goes to Carryovers more than once a month
+#  NEXT STEPS / RECOMMENDATIONS
+#  - Validate further these hypothesis around these cohorts before spending marketing dollars: This can be achieved leveraging additional data 
+#  - Complete the analysis for the rest of coupons types to gain insights 
+#  - Start testing these hypothesis for example through A/B experiments to find out how to fine tune these cohorts to maximize conversion rates
+#  - Once these hypothesis are confirmed/fine tunes, operationalize this model integrating it in the mobile app to manage coupons
 #
