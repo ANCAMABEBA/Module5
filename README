@@ -1,0 +1,18 @@
+# PROJECT OVERVIEW
+#  - This project analyzes customer data related to coupon offers to understand which factors influence whether a customer accepts or rejects a coupon.
+#  - The analysis uses a dataset that includes demographics (income, age, gender, marital status, education), customer habbits (number of visits to bars, coffee shops, etc.) and
+#    trip context (other people in the vehicle, whether, destination, time to redemption), and coupon features (type of cuopon, expiration)
+# OBJECTIVE
+#  - The goal is to identify patterns and differences between customers who accepted the coupon and those who did not.
+#  - These insights can help marketing department to prioritize and direct investments more wisely
+# DATASET - DESCRIPTIVE ANALYTICS
+#  - 12,684 records corresponding each one to one coupon
+#  - 26 columns: 25 input variables and 1 target variable with the info whether the coupon was accepted or not.
+#  - Most columns are objects with categorical data and 8 are integers (including the target column)
+#  - The column "car" has 12,576 missing values, which means it is not going to offer much explanatory value. This column is eliminated for the analysis.
+#  - There are other 5 columns with missing values (between 107 and 217). They are completed with the word "Missing" to avoid discarding these rows.
+# KEY INSIGHTS FROM THE ANALYSIS
+#  - Overall, the two coupons types with the highest probablity to be accepted are "Carry out & Take Awa" and "Restaurant(<20)". "Bar" coupons are the least accepted.
+#  - Looking at the explanatory value of features independently:
+#      - The following features present the biggest gaps of acceptance rates across its values:
+#            - Education: Customers with "Some High School" present significantly higher acceptance rates than customers with "Graduate Degree"
