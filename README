@@ -16,3 +16,22 @@
 #  - Looking at the explanatory value of features independently:
 #      - The following features present the biggest gaps of acceptance rates across its values:
 #            - Education: Customers with "Some High School" present significantly higher acceptance rates than customers with "Graduate Degree"
+#            - Occupation: Customers in "Construction & Extraction", "Healthcare Support" and "Healthcare Practicioners and Technical" present significantly higher acceptance rates
+#              compared to "Legal" and "Retired"
+#            - Frequent users of Coffee Shops, inpexpensive restaurants and Carryaway are more likely to accept coupons.
+#      - A little bit counter-intuitive; the fact that the place to redeem the coupon is or not in the same direction the customer was going, does not seem to have such a great
+#        explanatory value.
+#  - Driving factors for acceptance rate, vary depending on the coupon type which we know by looking at the data and also because of domain knowledge (customer decisions do not work the same
+#    in the case of a bar or a restaurant, for example.
+#  - Based on this, and given the time constraints the analysis was focused on two types; "Bar" Coupons and "Carry and Take Aways" Coupons
+#  BAR COUPONS
+#  - This type of coupons are more likely to be accepted among: (The probability is more than double for this cohort)
+#     - Drivers to go to bars more than once a month AND
+#     - Had passengers that were not a kid
+#     - Had occupations other than farming, fishing and forestry
+#  CARRY AND TAKE AWAYS
+#  - This type of coupons are more likely to be accepted among: (Acceptance rates over 80% for this cohort).
+#     - Driver has income less than $37,500  AND
+#     - Passengers are kids AND
+#     - Driver goes to Carryovers more than once a month
+#
