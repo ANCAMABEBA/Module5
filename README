@@ -3,10 +3,11 @@
 #  - The analysis uses a dataset that includes demographics (income, age, gender, marital status, education), customer habbits (number of visits to bars, coffee shops, etc.) and
 #    trip context (other people in the vehicle, whether, destination, time to redemption), and coupon features (type of cuopon, expiration)
 #  - You can view the full analysis in the Jupiter notebook here:(https://github.com/ANCAMABEBA/Module5/blob/main/CouponsAnalysisMaster.ipynb)
-# 
+# (https://github.com/ANCAMABEBA/Module5/blob/main/CouponsAnalysisMaster.ipynb)
 # OBJECTIVE
 #  - The goal is to identify patterns and differences between customers who accepted the coupon and those who did not.
 #  - These insights can help marketing department to prioritize and direct investments more wisely
+#
 # DATASET - DESCRIPTIVE ANALYTICS
 #  - 12,684 records corresponding each one to one coupon
 #  - 26 columns: 25 input variables and 1 target variable with the info whether the coupon was accepted or not.
