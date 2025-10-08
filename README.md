@@ -45,7 +45,13 @@ These insights can help marketing departments to prioritize and direct investmen
       - Drivers with incomes less than $37,500 AND
       - Passangers are kids AND
       - Drivers go to Carryovers more than once a month.     
-  
+
+## Next Steps / Recommendations
+- Validate further these hypotesis around these cohorts before spending marketing dollars
+- Complete the analysis for the rest of coupon types
+- Start testing these hypothesis for example  through A/B experiments to find out how to fine tune these cohorts to maximize conversion rates
+- Once these hypothesis are confirmed/fine tuned, operationalize this model integrating it in the mobile app. to manage coupons and advertising. 
+
 ## Files in this Repository
 - `CouponsAnalysisMaster.ipynb` — Jupyter notebook with the full analysis.
 - `data/` — Folder containing the dataset.
